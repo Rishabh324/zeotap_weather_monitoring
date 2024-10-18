@@ -1,8 +1,10 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+# directories
+/data
+
 # dependencies
 /node_modules
-/data
 /.pnp
 .pnp.js
 .yarn/install-state.gz
@@ -28,7 +30,7 @@ yarn-error.log*
 
 # local env files
 .env*.local
-.env
+
 # vercel
 .vercel
 
