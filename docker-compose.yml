@@ -1,10 +1,10 @@
 name: weather-monitoring-system
 services:
-  frontend:
+  weather-frontend:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: web
+    container_name: weather-frontend
     restart: always
     volumes:
       - ./:/usr/src/app
