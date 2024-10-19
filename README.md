@@ -12,6 +12,8 @@ The project is hosted in public registry on docker. You can pull the image by se
 
 1. rishabhsinha324/weather-monitoring-system-weather-frontend
 
+After pulling the image, run the docker run command and perform the port mapping by adding 3000:3000 to the command.
+
 ## How to run the application
 
 1. Using docker:
